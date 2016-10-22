@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="description" content="udacity rot13 homework"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <meta charset="utf-8">
+
+	<title>Rot13 Algorithm Implementer</title>
+
+	<style type="text/css">
+	{% include "style.css" %}
+	</style>
+
+</head>
+<body>
+	<div class="container">
+		<form method="post">
+			<fieldset>
+				<legend><h2>Enter some text to Rot13</h2></legend>
+				<br>
+				<br>
+				<textarea class="textarea" placeholder = "Enter the text for Rot13 conversion" autofocus name = "text"  rows="10">{{input_str}}</textarea>
+				<br>
+				<br>
+				<button class="button"> Submit </button>
+			</fieldset>
+		</form>
+	</div>
+
+</body>
+</html>
